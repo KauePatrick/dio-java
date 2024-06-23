@@ -1,7 +1,7 @@
 public class MinhaClasse {
 
 public static void main(String [] args){
-    
+
         String primeiroNome = "Gleyson";
         String segundoNome = "Sampaio";
 
@@ -11,7 +11,7 @@ public static void main(String [] args){
 
  public static String nomeCompleto (String primeiroNome, String segundoNome){
 
-    return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
+    return "Resultado do método " + primeiroNome + " " + segundoNome;
 
   }
 
