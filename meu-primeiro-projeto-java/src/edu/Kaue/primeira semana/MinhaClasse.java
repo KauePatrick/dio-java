@@ -4,6 +4,7 @@ public static void main(String [] args){
 
         String primeiroNome = "Gleyson";
         String segundoNome = "Sampaio";
+        short eu = 128;
 
         String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
         System.out.print(nomeCompleto);
