@@ -57,7 +57,24 @@ public class Operadores {
         simNao = numero1 > numero2;
         System.out.println("numeroUm e maior a numeroDois?" + simNao);
 
+
+            //Operador logico (&&=e) (||=ou)
+
+            boolean condicao1=true;
+
+            boolean condicao2=false;
+    
+            if(condicao1 && condicao2){
+                System.out.println("as duas condições são verdadeiras");
+            }
+    
+            if (condicao1 || condicao2){
+                System.out.println("uma das condições é verdadeiras");
+            }
+    
+
    
+
 
     }
 }
