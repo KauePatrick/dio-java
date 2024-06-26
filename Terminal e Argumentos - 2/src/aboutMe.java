@@ -8,6 +8,23 @@ public class aboutMe {
         Minha altura é 1.70 cm
     */
 
+    /*Tambem e possivel configurar parametros direto da IDE, usando as configurações, entrando em Executar, abrir ou adiconar configurações e assim abrindo um arquivo json
+     * que e possivel adiconal parametros por exemplo:
+     * 
+     * {
+            "type": "java",
+            "name": "aboutMe",
+            "request": "launch",
+            "mainClass": "aboutMe",
+            "args":[
+                "KAUE",
+                "PATRICK",
+                "19",
+                "1.70"
+            ]
+        }
+      */
+
 
     public static void main(String[] args) {
         //os argumentos começam com indice 0
